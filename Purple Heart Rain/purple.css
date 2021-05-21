@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    background-color: aquamarine;
+
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+
+}
+
+.heart{
+    font-size: 2rem;
+    position: fixed;
+    top:-1vh;
+    transform: translateY(0);
+    animation: fall  3s linear;
+}
+@keyframes fall {
+    to{
+        transform: translateY(105vh);
+    }
+}

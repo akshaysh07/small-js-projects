@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(172, 115, 230);
+}
+
+.btn{
+    background-color:rgb(81, 43, 119);
+    color: white;
+    font-size: 2rem;
+    margin: 1.6rem;
+    border: none;
+    border: radius 30px; 
+    font-style: inherit;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(36, 10, 61);
+    transform: scale(1.5);
+}
+
+h1{
+    position: fixed;
+    top: 10px;
+    margin: 5rem;
+    font-size: 6rem;
+    color: whitesmoke;
+}
+
