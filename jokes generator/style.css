@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: cornflowerblue;
+}
+
+
+.container{
+    background: white;
+    max-width: 100%;
+    border-radius :10px;;
+    width: 700px;
+    padding: 50px 20px;
+    text-align: center;
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1) ;
+}
+
+
+h3{
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.joke{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+
+button{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:active{
+    transform: scale(0.90);
+}

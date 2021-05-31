@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.progress{
+    background: rgb(196, 189, 189);
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.progress-done{
+    width: 0;
+    background: linear-gradient(to left,#F2709C,#FF9472);
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 3px -5px #F2709C,0 2px 5px #F2709C;
+    opacity: 0;
+    transition:  1s ease ;
+}
