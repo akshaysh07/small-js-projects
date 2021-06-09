@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: rebeccapurple;
+    color: white;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 450px;
+    cursor: pointer;
+}
+
+.circle{
+    background-color: white;
+    height: 14px;
+    width: 14px;
+    margin: 8px;
+    border-radius: 50%;
+    transition: transform 0.3s linear;
+}
+
+.circle.grow{
+    transform: scale(2);
+}

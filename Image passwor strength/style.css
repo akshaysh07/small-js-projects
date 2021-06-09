@@ -1,0 +1,99 @@
+
+
+*{
+   box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    
+    overflow: hidden;
+    min-height: 100vh;
+    min-width: 100vw;
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+
+
+.background{
+
+    background: url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bGFwdG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+      background-size:   100vw 100vh;
+      background-repeat: no-repeat;
+      background-position: center center;
+     
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  right: -40px;
+  bottom: -40px;
+
+  filter: blur(20px);
+   
+}
+
+
+.container{
+    background-color:transparent;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    border-radius: 10px;
+    position: absolute;
+    top:200px;
+    left: 200px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border: transparent;
+
+}
+
+
+.email{
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right: 20px;
+    width: 100%;
+}
+
+
+
+.email:focus{
+    outline: none;
+    border: 0;
+}
+
+.password{
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    
+    margin-right: 20px;
+    width: 100%;
+    
+}
+    
+.password:focus{
+    outline: none;
+    border: 0;
+}
+
+
+
+input{
+    padding: 7px;
+    margin: 7px;
+    width: 100%;
+}
+
+p{
+    opacity: 0.7;
+    letter-spacing: 2px;
+}
